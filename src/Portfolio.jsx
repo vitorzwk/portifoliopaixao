@@ -57,7 +57,7 @@
                     </div>
 
                     <p className="text-gray-400 leading-relaxed">
-                    Studying Computer Science at UFC, passionate about web development
+                    Studying Analysis and Systems Development at Uninassau, passionate about web development
                     and always eager to learn new technologies. I enjoy creating 
                     clean and efficient code, and I'm excited to 
                     contribute to innovative projects in the tech world.
