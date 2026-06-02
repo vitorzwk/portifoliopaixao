@@ -46,7 +46,7 @@
                 <div className="space-y-6">
                     <div className="flex items-center gap-5">
                     <img
-                        src="https://github.com/identicons/vitor.png"
+                        src="https://media.licdn.com/dms/image/v2/D4D03AQFR-jslLyo8oA/profile-displayphoto-scale_400_400/B4DZiwEFJ5GgAo-/0/1755300517815?e=1781740800&v=beta&t=z4_1wxUfosCFuqolrUXYK1yiw06s1oU822vBFbyQQ10"
                         className="w-20 h-20 rounded-full border-2 border-gray-700"
                     />
                     <div>
