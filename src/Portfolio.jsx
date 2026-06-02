@@ -1,14 +1,14 @@
         import { useState } from "react";
         const projetos = [
         {
-            nome: "portigoliopaixao",
-            descricao: "Meu primeiro projeto em React, exibição de portfólio.",
+            nome: "portifoliopaixao",
+            descricao: "My first project in React, a portfolio display.",
             tags: ["React", "Tailwind"],
             link: "#",
         },
         {
-            nome: "projeto-2",
-            descricao: "Em breve...",
+            nome: "project-2",
+            descricao: "My second project.",
             tags: ["SQL", "Node.js"],
             link: "#",
         },
@@ -28,13 +28,13 @@
                     onClick={() => setAba("sobre")}
                     className={aba === "sobre" ? "text-white border-b border-white pb-1" : "hover:text-white"}
                 >
-                    sobre
+                    about
                 </button>
                 <button
                     onClick={() => setAba("projetos")}
                     className={aba === "projetos" ? "text-white border-b border-white pb-1" : "hover:text-white"}
                 >
-                    projetos
+                    projects
                 </button>
                 </div>
             </nav>
@@ -51,14 +51,16 @@
                     />
                     <div>
                         <h1 className="text-2xl font-bold">Vitor</h1>
-                        <p className="text-blue-400 text-sm">Desenvolvedor Júnior</p>
+                        <p className="text-blue-400 text-sm">Junior Developer</p>
                         <p className="text-gray-500 text-sm">Fortaleza, BR</p>
                     </div>
                     </div>
 
                     <p className="text-gray-400 leading-relaxed">
-                    Estudando desenvolvimento web com foco em React. 
-                    Apaixonado por transformar ideias em interfaces.
+                    Studying Computer Science at UFC, passionate about web development
+                    and always eager to learn new technologies. I enjoy creating 
+                    clean and efficient code, and I'm excited to 
+                    contribute to innovative projects in the tech world.
                     </p>
 
                     <div>
@@ -77,7 +79,7 @@
                 {/* Aba Projetos */}
                 {aba === "projetos" && (
                 <div className="space-y-4">
-                    <p className="text-sm text-gray-500 mb-6">// projetos</p>
+                    <p className="text-sm text-gray-500 mb-6">// projects</p>
                     {projetos.map((p) => (
                     <div key={p.nome} className="border border-gray-800 rounded-xl p-5 hover:border-gray-600 transition-all bg-gray-900">
                         <div className="flex items-center justify-between mb-2">
