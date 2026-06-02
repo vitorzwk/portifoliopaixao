@@ -51,7 +51,7 @@
                     />
                     <div>
                         <h1 className="text-2xl font-bold">Vitor</h1>
-                        <p className="text-green-400 text-sm">Desenvolvedor Júnior</p>
+                        <p className="text-blue-400 text-sm">Desenvolvedor Júnior</p>
                         <p className="text-gray-500 text-sm">Fortaleza, BR</p>
                     </div>
                     </div>
@@ -65,7 +65,7 @@
                     <p className="text-sm text-gray-500 mb-2">// skills</p>
                     <div className="flex flex-wrap gap-2">
                         {["React", "JavaScript", "Tailwind", "HTML", "CSS"].map((s) => (
-                        <span key={s} className="bg-gray-800 text-green-400 text-xs px-3 py-1 rounded-full border border-gray-700">
+                        <span key={s} className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full border border-gray-700">
                             {s}
                         </span>
                         ))}
@@ -81,7 +81,7 @@
                     {projetos.map((p) => (
                     <div key={p.nome} className="border border-gray-800 rounded-xl p-5 hover:border-gray-600 transition-all bg-gray-900">
                         <div className="flex items-center justify-between mb-2">
-                        <h3 className="text-green-400 font-bold">{p.nome}</h3>
+                        <h3 className="text-blue-400 font-bold">{p.nome}</h3>
                         <a href={p.link} className="text-xs text-gray-500 hover:text-white">ver →</a>
                         </div>
                         <p className="text-gray-400 text-sm mb-3">{p.descricao}</p>
