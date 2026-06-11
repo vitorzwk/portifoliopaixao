@@ -9,8 +9,8 @@
         {
             nome: "project-2",
             descricao: "My second project.",
-            tags: ["SQL", "Node.js"],
-            link: "#",
+            tags: ["SQL", "PHP", "Bootstrap", "JavaScript"],
+            link: "https://honeydew-meerkat-656305.hostingersite.com",
         },
         ];
 
@@ -57,7 +57,7 @@
                     </div>
 
                     <p className="text-gray-400 leading-relaxed">
-                    Studying Computer Science at UFC, passionate about web development
+                    Studying Analysis and Systems Development at Uninassau, passionate about web development
                     and always eager to learn new technologies. I enjoy creating 
                     clean and efficient code, and I'm excited to 
                     contribute to innovative projects in the tech world.
