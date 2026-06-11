@@ -22,7 +22,7 @@
 
             {/* Navbar */}
             <nav className="border-b border-gray-800 px-8 py-4 flex items-center justify-between">
-                <span className="text-green-400 font-bold text-lg">vitor.dev</span>
+                <span className="text-blue-400 font-bold text-lg">vitor.dev</span>
                 <div className="flex gap-6 text-sm text-gray-400">
                 <button
                     onClick={() => setAba("sobre")}
